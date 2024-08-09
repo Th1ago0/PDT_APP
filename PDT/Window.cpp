@@ -261,7 +261,7 @@ LRESULT CALLBACK WinProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         switch (LOWORD(wParam))
         {
         case MENU_ABOUT_ID:
-            MessageBox(NULL, L"A Aplicacao Faz uma Analise CC em Circuitos com Polarizacao Por Divisor de Tensao, Tambem Quantifica e Regulariza os Valores ( 0.123 > 123k ) Automaticamente.", L"Sobre", MB_ICONINFORMATION | MB_OK);
+            MessageBox(NULL, L"A Aplicacao Faz uma Analise CC em Circuitos com Polarizacao Por Divisor de Tensao, Tambem Quantifica e Regulariza os Valores ( 0.123 > 123m ) Automaticamente.", L"Sobre", MB_ICONINFORMATION | MB_OK);
             break;
 
         case MENU_SRC_ID:
